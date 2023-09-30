@@ -5,13 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="510dp"
+        android:layout_height="858dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/androidparty"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.994" />
+
     <TextView
         android:id="@+id/textView"
-        android:layout_width="364dp"
-        android:layout_height="234dp"
+        android:layout_width="356dp"
+        android:layout_height="86dp"
         android:layout_marginStart="21dp"
         android:layout_marginTop="16dp"
-        android:text="Happy Birthday, Dmytro"
+        android:text="@string/happy_birthday_dmytro"
         android:textSize="34sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -22,8 +34,9 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
-        android:text="From Dmytro"
+        android:text="@string/from_dmytro"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
