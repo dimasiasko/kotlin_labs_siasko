@@ -1,2 +1,1 @@
-# kotlin_labs_lntu
- 
+Дмитро Сясько
